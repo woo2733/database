@@ -29,6 +29,7 @@
 					<td>".$res['license']."</td>
 					<td>".$res['iscorp']."</td>
 					</tr>";
+				echo "<td><a href=\"client_delete.php?cid=$res[cid]\" onClick=\"return confirm('Are you sure you want to delete this Client?')\">Delete</a></td>";
 			}
 		?>
 	</table><br>
