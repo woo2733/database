@@ -9,5 +9,5 @@
 	$result = mysqli_query($mysqli, "DELETE FROM Branch WHERE id='$id'");
 
 	//redirecting to the display page (index.php in our case)
-	echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
+	header("Location:Branch.php");
 ?>

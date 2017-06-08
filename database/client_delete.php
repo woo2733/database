@@ -9,5 +9,5 @@
 	$result = mysqli_query($mysqli, "DELETE FROM Clients WHERE cid='$cid'");
 
 	//redirecting to the display page (index.php in our case)
-	echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
+	header("Location:Clients.php");
 ?>
