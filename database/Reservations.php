@@ -1,6 +1,3 @@
-<h1> Reservations </h1>
-<a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/home.php">Home</a><br/><br/>
-
 <?php
 	include_once 'dbconfig.php';
 	$result = mysqli_query($mysqli,"SELECT * FROM Reservations");
@@ -8,6 +5,8 @@
 
 <html>
 <head>
+	<h1> Reservations </h1>
+	<a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/home.php">Home</a><br/><br/>
 </head>
 <body>
 	<table width='100%' border=1>
@@ -29,7 +28,7 @@
 					<td>".$res['mil']."</td>
 					<td>".$res['start']."</td>
 					<td>".$res['end']."</td>";
-				echo "<td><a href=\"client_delete.php?rnum=$res[rnum]\" onClick=\"return confirm('Are you sure you want to delete this Reservation?')\">Delete</a></td>";
+				echo "<td><a href=\"reservation_delete.php?rnum=$res[rnum]\" onClick=\"return confirm('Are you sure you want to delete this Reservation?')\">Delete</a></td>";
 				echo "</tr>";
 			}
 		?>

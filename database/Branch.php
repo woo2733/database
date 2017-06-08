@@ -1,12 +1,11 @@
-<h1> Branch </h1>
-<a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/home.php">Home</a><br/><br/>
-
 <?php
 	include_once 'dbconfig.php';
 	$result = mysqli_query($mysqli,"SELECT * FROM Branch");
 ?>	
 
 <html>
+	<h1> Branch </h1>
+	<a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/home.php">Home</a><br/><br/>
 <head>
 </head>
 <body>
