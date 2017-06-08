@@ -30,12 +30,12 @@
 			<?php
 				while($res = mysql_fetch_array($result)){
 					echo "<tr>
-						<td>".$row['cid']."</td>
-						<td>".$row['cname']."</td>
-						<td>".$row['cadd']."</td>
-						<td>".$row['cphone']."</td>
-						<td>".$row['license']."</td>
-						<td>".$row['iscorp']."</td>
+						<td>".$res['cid']."</td>
+						<td>".$res['cname']."</td>
+						<td>".$res['cadd']."</td>
+						<td>".$res['cphone']."</td>
+						<td>".$res['license']."</td>
+						<td>".$res['iscorp']."</td>
 						</tr>"
 				}
 			?>
