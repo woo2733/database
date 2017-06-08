@@ -15,6 +15,10 @@
 <html>
 <head>
 	<title>Clients</title>
+	<style>table{
+		border: 1px solid;
+	}
+	</style>
 </head>
 <body>
 	<a href="Clients_add.html">Add New Clients</a><br/><br/>
