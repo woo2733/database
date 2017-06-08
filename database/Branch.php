@@ -5,7 +5,6 @@
 
 <html>
 	<h1> Branch </h1>
-	<a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/home.php">Home</a><br/><br/>
 <head>
 </head>
 <body>
@@ -26,5 +25,6 @@
 		?>
 	</table><br>
 	<a href="branch_add.html">Add New Branch</a><br/><br/>
+	<a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/home.php">Home</a><br/><br/>
 </body>
 </html>

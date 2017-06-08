@@ -6,7 +6,6 @@
 <html>
 <head>
 	<h1> Clients </h1>
-	<a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/home.php">Home</a><br/><br/>
 </head>
 <body>
 	<table width='100%' border=1>
@@ -34,5 +33,6 @@
 		?>
 	</table><br>
 	<a href="client_add.html">Add New Clients</a><br/><br/>
+	<a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/home.php">Home</a><br/><br/>
 </body>
 </html>

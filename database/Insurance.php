@@ -6,7 +6,6 @@
 <html>
 <head>
 	<h1> Insurance Policy</h1>
-	<a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/home.php">Home</a><br/><br/>
 </head>
 <body>
 	<table width='100%' border=1>
@@ -26,5 +25,6 @@
 		?>
 	</table><br>
 	<a href="branch_add.html">Add New Insurance Policy</a><br/><br/>
+	<a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/home.php">Home</a><br/><br/>
 </body>
 </html>
