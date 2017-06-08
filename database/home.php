@@ -1,13 +1,10 @@
-<?php
-	include_once 'dbconfig.php';
+<h1> Assignment 4 </h1>
+<ol>
+	<li><a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/Clients.php">Clients</a><br></li>
+	<li><a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/Branch.php">Branch</a><br></li>
+	<li><a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/Insurance.php">Insurance</a><br></li>
+	<li><a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/Mileage.php">Mileage</a><br></li>
+	<li><a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/Reservations.php">Reservations</a><br></li>
+</ol>
 
-	echo '<h1> Assignment 4 </h1>
-		<ol>
-		<li><a href = "Clients.php">Clients</a><br></li>
-		<li><a href = "Branch.php">Branch</a><br></li>
-		<li><a href = "Insurance.php">Insurance</a><br></li>
-		<li><a href = "Mileage.php">Mileage</a><br></li>
-		<li><a href = "Reservations.php">Reservations</a><br></li>
-		</ol>';
-?>
 	
