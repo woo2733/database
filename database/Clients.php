@@ -10,7 +10,7 @@
 <head>
 </head>
 <body>
-	<table width='50%' border=1>
+	<table width='100%' border=1>
 		<tr bg color='#CCCCCC'>
 			<td>ID</td>
 			<td>Name</td>
@@ -18,6 +18,7 @@
 			<td>Phone</td>
 			<td>License</td>
 			<td>From Corporation</td>
+			<td>Delete?</td>
 		</tr>
 		<?php
 			while($res = mysqli_fetch_array($result)){
