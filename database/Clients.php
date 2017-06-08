@@ -1,5 +1,5 @@
 <h1> Clients </h1>
-<li><a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/home.php">Home</a><br></li>
+<a href = "http://webtech.kettering.edu/~woo2733/Assignment4/database/database/home.php">Home</a><br/><br/>
 
 <?php
 	include_once 'dbconfig.php';
@@ -32,6 +32,6 @@
 			}
 		?>
 	</table><br>
-	<a href="Clients_add.html">Add New Clients</a><br/><br/>
+	<a href="client_add.html">Add New Clients</a><br/><br/>
 </body>
 </html>
