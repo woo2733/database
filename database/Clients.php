@@ -36,7 +36,7 @@
 						<td>".$res['cphone']."</td>
 						<td>".$res['license']."</td>
 						<td>".$res['iscorp']."</td>
-						</tr>"
+						</tr>";
 				}
 			?>
 		</table>
