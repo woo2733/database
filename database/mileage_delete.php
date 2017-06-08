@@ -9,5 +9,5 @@
 	$result = mysqli_query($mysqli, "DELETE FROM Mileage WHERE mnum='$mnum'");
 
 	//redirecting to the display page (index.php in our case)
-	header("Location:Mileage.php");
+	echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
 ?>

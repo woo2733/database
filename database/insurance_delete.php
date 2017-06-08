@@ -9,5 +9,5 @@
 	$result = mysqli_query($mysqli, "DELETE FROM Insurance WHERE pnum='$pnum'");
 
 	//redirecting to the display page (index.php in our case)
-	header("Location:Insurance.php");
+	echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
 ?>
