@@ -10,24 +10,9 @@
 		$license = mysqli_real_escape_string($mysqli, $_POST['license']);
 
 		// checking empty fields
-		if(empty($cname) || empty($cadd) || empty($cphone) || empty($license)) {
-
-			if(empty($cname)) {
-				echo "<font color='red'>Name field is empty.</font><br/>";
-			}
-
-			if(empty($cadd)) {
-				echo "<font color='red'>Address field is empty.</font><br/>";
-			}
-
-			if(empty($cphone)) {
-				echo "<font color='red'>Phone field is empty.</font><br/>";
-			}
-
-			if(empty($license)) {
-				echo "<font color='red'>License Number field is empty.</font><br/>";
-			}
-
+		if(empty($cname)) {
+			echo "<font color='red'>Name field is empty.</font><br/>";
+			
 			//link to the previous page
 			echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
 		} else {
