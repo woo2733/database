@@ -1,4 +1,6 @@
 <?php
+	include_once 'dbconfig.php';
+
 	echo '<h1> Assignment 4 </h1>
 		<ol>
 		<li><a href = "Clients.php">Clients</a><br></li>

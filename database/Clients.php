@@ -5,7 +5,6 @@
 	$result = $result->query($sql);
 	
 	if($result->num_rows > 0){
-		
 		echo '<h1>Clients</h1>
 			<table>
 			<tr>
@@ -28,7 +27,7 @@
 			</tr>'
 		}
 	} else {
-		echo "0 results";
+		echo "<h1>0 results</h1>";
 	}
 	
 	$result->close();
