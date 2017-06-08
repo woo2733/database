@@ -11,7 +11,7 @@
 
 		// checking empty fields
 		if(empty($cname)) {
-			echo "<font color='red'>Name field is empty.</font><br/>";
+			echo "<font color='black'>Name field is empty.</font><br/>";
 			
 			//link to the previous page
 			echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
@@ -22,8 +22,7 @@
 			$result = mysqli_query($mysqli, "INSERT INTO Clients (cname, cadd, cphone, license) VALUES ('$cname', '$cadd', '$cphone', '$license')");
 			
 			//display success message
-			echo "<font color='green'>Data added successfully.";
-			echo "<br/><a href='Clients.php'>View Result</a>";
+			echo "<br/><a href='Clients.php'>Clients</a>";
 		}
 	}
 ?>
