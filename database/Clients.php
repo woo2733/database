@@ -15,14 +15,10 @@
 <html>
 <head>
 	<title>Clients</title>
-	<style>table{
-		border: 1px solid;
-	}
-	</style>
 </head>
 <body>
 	<a href="Clients_add.html">Add New Clients</a><br/><br/>
-		<table>
+		<table width='50%' border=1>
 			<tr bg color='#CCCCCC'>
 				<td>ID</td>
 				<td>Name</td>
@@ -32,7 +28,7 @@
 				<td>From Corporation</td>
 			</tr>
 			<?php
-				while($res = mysql_fetch_array($result)){
+				while($res = mysqli_fetch_array($result)){
 					echo "<tr>
 						<td>".$res['cid']."</td>
 						<td>".$res['cname']."</td>
